@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bet Better</title>
+    <link href="popup.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <style>
+
+    </style>
+
+
+    <!--Logo and heading-->
+    <img id="logo" src="assets/logo-design.png" alt="logo">
+    <h3 class="heading">You have used 88% of your daily allowance</h3>
+    
+    <div class="progress-bar-padding">
+        <!--progress bar-->
+        <div class="progress-bar"></div>
+
+        <!--progress bar overlay mid-->
+        <div class="progress-bar-overlay-1"></div>
+
+        <!--progress bar overlay small-->
+        <div class="progress-bar-overlay-2"></div>
+
+        <!--progress bar overlay smallest-->
+        <div class="progress-bar-overlay-3"></div>
+        
+        <div class="progress-bar-counter">
+            <p><span class="counter-start">00 HR</span><span class="counter-mid">01 HR</span><span class="counter-end">02 HR</span></p>
+        </div>
+    </div>
+
+
+
+    <!--Current Site info-->
+
+    <!--previous sites-->
+    <h3 class="heading">Your Usage Today</h3>
+    <p id="dialog-box"></p>
+
+    <table>
+        <tr>
+            <th>
+                Key
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                URL
+            </th>
+            <th>
+                Duration
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <div class="square square-1"></div>
+            </td>
+            <td>
+                Paddy Power
+            </td>
+            <td>
+                <span class="url">paddypower.com</span>
+            </td>
+            <td>
+                <span class="time">01 HR: 02 MN</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="square square-2"></div>
+            </td>
+            <td>
+                Ladbrokes
+            </td>
+            <td>
+                <span class="url">sports.ladbrokes.com</span>
+            </td>
+            <td>
+                <span class="time">00 HR: 27 MN</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="square square-3"></div>
+            </td>
+            <td>
+                Coral
+            </td>
+            <td>
+                <span class="url">sports.coral.co.uk</span>
+            </td>
+            <td>
+                <span class="time">00 HR: 16 MN</span>
+            </td>
+        </tr>
+    </table>
+
+    <script src='popup.js'></script>
+
+
+
+</body>
+</html>
