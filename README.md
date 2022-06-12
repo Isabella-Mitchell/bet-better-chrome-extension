@@ -6,6 +6,8 @@ To use:
 
 Download files
 
+Unzip assets file
+
 Go to Chrome > Extensions > Manage Extensions - chrome://extensions/
 
 Click 'Load Unpacked' and select folder from your device.
